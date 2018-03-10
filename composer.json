@@ -1,37 +1,30 @@
 {
-    "name": "topthink/think",
-    "description": "the new thinkphp framework",
+    "name": "karsonzhang/fastadmin",
+    "description": "the fastest admin framework",
     "type": "project",
     "keywords": [
-        "framework",
-        "thinkphp",
-        "ORM"
+        "fastadmin",
+        "thinkphp"
     ],
-    "homepage": "http://thinkphp.cn/",
+    "homepage": "http://www.fastadmin.net/",
     "license": "Apache-2.0",
     "authors": [
         {
-            "name": "liu21st",
-            "email": "liu21st@gmail.com"
+            "name": "Karson",
+            "email": "karsonzhang@163.com"
         }
     ],
     "require": {
         "php": ">=5.4.0",
-        "topthink/framework": "5.0.*",
-        "topthink/think-captcha": "1.*",
-        "topthink/think-mongo": "1.*",
-        "topthink/think-image": "1.*",
-        "topthink/think-queue": "1.*",
-        "topthink/think-migration": "1.*",
-        "topthink/think-oracle": "1.*"
-    },
-    "autoload": {
-        "psr-4": {
-            "app\\": "application"
-        }
-    },
-    "extra": {
-        "think-path": "thinkphp"
+        "topthink/framework": "~5.0.14",
+        "overtrue/wechat": "~3.1",
+        "endroid/qr-code": "^1.9",
+        "topthink/think-captcha": "^1.0",
+        "mtdowling/cron-expression": "^1.2",
+        "phpmailer/phpmailer": "^5.2",
+        "karsonzhang/fastadmin-addons": "~1.1.0",
+        "overtrue/pinyin": "~3.0",
+        "phpoffice/phpexcel": "^1.8"
     },
     "config": {
         "preferred-install": "dist"

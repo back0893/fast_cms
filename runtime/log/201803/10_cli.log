@@ -1,0 +1,150 @@
+[ 2018-03-10T17:37:58+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000114s ]
+[ info ] [ LOG ] INIT File
+[ 2018-03-10T17:37:58+08:00 ][ info ] [ CACHE ] INIT File
+[ 2018-03-10T17:37:58+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.030840s ]
+[ 2018-03-10T17:37:58+08:00 ][ info ] [ DB ] INIT mysql
+[ 2018-03-10T17:39:33+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000156s ]
+[ info ] [ LOG ] INIT File
+[ 2018-03-10T17:39:33+08:00 ][ info ] [ CACHE ] INIT File
+[ 2018-03-10T17:39:33+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.004025s ]
+[ 2018-03-10T17:39:33+08:00 ][ info ] [ DB ] INIT mysql
+[ 2018-03-10T17:39:33+08:00 ][ sql ] [ DB ] CONNECT:[ UseTime:0.010198s ] mysql:host=127.0.0.1;port=3306;dbname=fastadmin;charset=utf8
+[ 2018-03-10T17:39:33+08:00 ][ sql ] [ SQL ] SELECT 1 [ RunTime:0.000250s ]
+[ 2018-03-10T17:40:36+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000125s ]
+[ info ] [ LOG ] INIT File
+[ 2018-03-10T17:40:36+08:00 ][ info ] [ CACHE ] INIT File
+[ 2018-03-10T17:40:36+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.008950s ]
+[ 2018-03-10T17:40:36+08:00 ][ info ] [ DB ] INIT mysql
+[ 2018-03-10T17:40:36+08:00 ][ sql ] [ DB ] CONNECT:[ UseTime:0.011349s ] mysql:host=127.0.0.1;port=3306;dbname=test;charset=utf8
+[ 2018-03-10T17:40:36+08:00 ][ sql ] [ SQL ] SELECT 1 [ RunTime:0.000320s ]
+[ 2018-03-10T17:40:57+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000125s ]
+[ info ] [ LOG ] INIT File
+[ 2018-03-10T17:40:57+08:00 ][ info ] [ CACHE ] INIT File
+[ 2018-03-10T17:40:57+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.003233s ]
+[ 2018-03-10T17:40:57+08:00 ][ info ] [ DB ] INIT mysql
+[ 2018-03-10T17:40:57+08:00 ][ sql ] [ DB ] CONNECT:[ UseTime:0.001203s ] mysql:host=127.0.0.1;port=3306;dbname=test;charset=utf8
+[ 2018-03-10T17:40:57+08:00 ][ sql ] [ SQL ] SELECT 1 [ RunTime:0.000265s ]
+[ 2018-03-10T17:41:09+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000193s ]
+[ info ] [ LOG ] INIT File
+[ 2018-03-10T17:41:09+08:00 ][ info ] [ CACHE ] INIT File
+[ 2018-03-10T17:41:09+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.003247s ]
+[ 2018-03-10T17:41:09+08:00 ][ info ] [ DB ] INIT mysql
+[ 2018-03-10T17:41:09+08:00 ][ sql ] [ DB ] CONNECT:[ UseTime:0.001080s ] mysql:host=127.0.0.1;port=3306;dbname=test;charset=utf8
+[ 2018-03-10T17:41:09+08:00 ][ sql ] [ SQL ] SELECT 1 [ RunTime:0.000220s ]
+[ 2018-03-10T17:41:44+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000127s ]
+[ info ] [ LOG ] INIT File
+[ 2018-03-10T17:41:44+08:00 ][ info ] [ CACHE ] INIT File
+[ 2018-03-10T17:41:44+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.003110s ]
+[ 2018-03-10T17:41:44+08:00 ][ info ] [ DB ] INIT mysql
+[ 2018-03-10T17:41:44+08:00 ][ sql ] [ DB ] CONNECT:[ UseTime:0.001366s ] mysql:host=127.0.0.1;port=3306;dbname=test;charset=utf8
+[ 2018-03-10T17:41:44+08:00 ][ sql ] [ SQL ] SELECT 1 [ RunTime:0.000377s ]
+[ 2018-03-10T17:41:58+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000165s ]
+[ info ] [ LOG ] INIT File
+[ 2018-03-10T17:41:58+08:00 ][ info ] [ CACHE ] INIT File
+[ 2018-03-10T17:41:58+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.003174s ]
+[ 2018-03-10T17:41:58+08:00 ][ info ] [ DB ] INIT mysql
+[ 2018-03-10T17:41:58+08:00 ][ sql ] [ DB ] CONNECT:[ UseTime:0.010842s ] mysql:host=127.0.0.1;port=3306;dbname=test;charset=utf8
+[ 2018-03-10T17:41:58+08:00 ][ sql ] [ SQL ] SELECT 1 [ RunTime:0.000206s ]
+[ 2018-03-10T17:42:04+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000122s ]
+[ info ] [ LOG ] INIT File
+[ 2018-03-10T17:42:04+08:00 ][ info ] [ CACHE ] INIT File
+[ 2018-03-10T17:42:04+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.003193s ]
+[ 2018-03-10T17:42:04+08:00 ][ info ] [ DB ] INIT mysql
+[ 2018-03-10T17:42:04+08:00 ][ sql ] [ DB ] CONNECT:[ UseTime:0.001417s ] mysql:host=127.0.0.1;port=3306;dbname=test;charset=utf8
+[ 2018-03-10T17:42:04+08:00 ][ sql ] [ SQL ] SELECT 1 [ RunTime:0.000459s ]
+[ 2018-03-10T17:44:35+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000109s ]
+[ info ] [ LOG ] INIT File
+[ 2018-03-10T17:44:35+08:00 ][ info ] [ CACHE ] INIT File
+[ 2018-03-10T17:44:35+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.003412s ]
+[ 2018-03-10T17:44:35+08:00 ][ info ] [ DB ] INIT mysql
+[ 2018-03-10T17:44:35+08:00 ][ sql ] [ DB ] CONNECT:[ UseTime:0.001121s ] mysql:host=127.0.0.1;port=3306;dbname=test;charset=utf8
+[ 2018-03-10T17:44:35+08:00 ][ sql ] [ SQL ] SELECT 1 [ RunTime:0.000271s ]
+[ 2018-03-10T17:45:01+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000148s ]
+[ info ] [ LOG ] INIT File
+[ 2018-03-10T17:45:01+08:00 ][ info ] [ CACHE ] INIT File
+[ 2018-03-10T17:45:01+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.004592s ]
+[ 2018-03-10T17:45:01+08:00 ][ info ] [ DB ] INIT mysql
+[ 2018-03-10T17:45:01+08:00 ][ sql ] [ DB ] CONNECT:[ UseTime:0.001397s ] mysql:host=127.0.0.1;port=3306;dbname=test;charset=utf8
+[ 2018-03-10T17:45:01+08:00 ][ sql ] [ SQL ] SELECT 1 [ RunTime:0.000251s ]
+[ 2018-03-10T17:45:22+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000127s ]
+[ info ] [ LOG ] INIT File
+[ 2018-03-10T17:45:22+08:00 ][ info ] [ CACHE ] INIT File
+[ 2018-03-10T17:45:22+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.003247s ]
+[ 2018-03-10T17:45:22+08:00 ][ info ] [ DB ] INIT mysql
+[ 2018-03-10T17:45:22+08:00 ][ sql ] [ DB ] CONNECT:[ UseTime:0.010616s ] mysql:host=127.0.0.1;port=3306;dbname=test;charset=utf8
+[ 2018-03-10T17:45:22+08:00 ][ sql ] [ SQL ] SELECT 1 [ RunTime:0.000393s ]
+[ 2018-03-10T17:45:22+08:00 ][ error ] [8]Undefined variable: tmpFile[E:\micoblog\vendor\karsonzhang\fastadmin-addons\src\addons\Service.php:272]
+[ 2018-03-10T17:45:22+08:00 ][ error ] [2]unlink(): Invalid argument[E:\micoblog\vendor\karsonzhang\fastadmin-addons\src\addons\Service.php:272]
+[ 2018-03-10T17:46:15+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000116s ]
+[ info ] [ LOG ] INIT File
+[ 2018-03-10T17:46:15+08:00 ][ info ] [ CACHE ] INIT File
+[ 2018-03-10T17:46:15+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.003467s ]
+[ 2018-03-10T17:46:15+08:00 ][ info ] [ DB ] INIT mysql
+[ 2018-03-10T17:46:15+08:00 ][ sql ] [ DB ] CONNECT:[ UseTime:0.000844s ] mysql:host=127.0.0.1;port=3306;dbname=test;charset=utf8
+[ 2018-03-10T17:46:15+08:00 ][ sql ] [ SQL ] SELECT 1 [ RunTime:0.000204s ]
+[ 2018-03-10T17:46:25+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000182s ]
+[ info ] [ LOG ] INIT File
+[ 2018-03-10T17:46:25+08:00 ][ info ] [ CACHE ] INIT File
+[ 2018-03-10T17:46:25+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.003771s ]
+[ 2018-03-10T17:46:25+08:00 ][ info ] [ DB ] INIT mysql
+[ 2018-03-10T17:46:25+08:00 ][ sql ] [ DB ] CONNECT:[ UseTime:0.010709s ] mysql:host=127.0.0.1;port=3306;dbname=test;charset=utf8
+[ 2018-03-10T17:46:25+08:00 ][ sql ] [ SQL ] SELECT 1 [ RunTime:0.000342s ]
+[ 2018-03-10T17:46:33+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000141s ]
+[ info ] [ LOG ] INIT File
+[ 2018-03-10T17:46:33+08:00 ][ info ] [ CACHE ] INIT File
+[ 2018-03-10T17:46:33+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.003531s ]
+[ 2018-03-10T17:46:33+08:00 ][ info ] [ DB ] INIT mysql
+[ 2018-03-10T17:46:33+08:00 ][ sql ] [ DB ] CONNECT:[ UseTime:0.011038s ] mysql:host=127.0.0.1;port=3306;dbname=test;charset=utf8
+[ 2018-03-10T17:46:33+08:00 ][ sql ] [ SQL ] SELECT 1 [ RunTime:0.000284s ]
+[ 2018-03-10T17:46:33+08:00 ][ error ] [8]Undefined variable: tmpFile[E:\micoblog\vendor\karsonzhang\fastadmin-addons\src\addons\Service.php:272]
+[ 2018-03-10T17:46:33+08:00 ][ error ] [2]unlink(): Invalid argument[E:\micoblog\vendor\karsonzhang\fastadmin-addons\src\addons\Service.php:272]
+[ 2018-03-10T17:46:34+08:00 ][ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_rule` [ RunTime:0.009389s ]
+[ 2018-03-10T17:46:34+08:00 ][ sql ] [ SQL ] INSERT INTO `fa_auth_rule` (`name` , `title` , `ismenu` , `icon` , `pid` , `status` , `createtime` , `updatetime`) VALUES ('cms' , 'CMS管理' , 1 , 'fa fa-list' , 0 , 'normal' , 1520675194 , 1520675194) [ RunTime:0.052843s ]
+[ 2018-03-10T17:46:34+08:00 ][ sql ] [ SQL ] INSERT INTO `fa_auth_rule` (`name` , `title` , `icon` , `ismenu` , `pid` , `status` , `createtime` , `updatetime`) VALUES ('cms/archives' , '内容管理' , 'fa fa-file-text-o' , 1 , 85 , 'normal' , 1520675194 , 1520675194) [ RunTime:0.030135s ]
+[ 2018-03-10T17:46:34+08:00 ][ sql ] [ SQL ] INSERT INTO `fa_auth_rule` (`name` , `title` , `ismenu` , `icon` , `pid` , `status` , `createtime` , `updatetime`) VALUES ('cms/archives/index' , '查看' , 0 , 'fa fa-circle-o' , 86 , 'normal' , 1520675194 , 1520675194) [ RunTime:0.024307s ]
+[ 2018-03-10T17:46:34+08:00 ][ sql ] [ SQL ] INSERT INTO `fa_auth_rule` (`name` , `title` , `ismenu` , `icon` , `pid` , `status` , `createtime` , `updatetime`) VALUES ('cms/archives/add' , '添加' , 0 , 'fa fa-circle-o' , 86 , 'normal' , 1520675194 , 1520675194) [ RunTime:0.056471s ]
+[ 2018-03-10T17:46:34+08:00 ][ sql ] [ SQL ] INSERT INTO `fa_auth_rule` (`name` , `title` , `ismenu` , `icon` , `pid` , `status` , `createtime` , `updatetime`) VALUES ('cms/archives/edit' , '修改' , 0 , 'fa fa-circle-o' , 86 , 'normal' , 1520675194 , 1520675194) [ RunTime:0.032342s ]
+[ 2018-03-10T17:46:34+08:00 ][ sql ] [ SQL ] INSERT INTO `fa_auth_rule` (`name` , `title` , `ismenu` , `icon` , `pid` , `status` , `createtime` , `updatetime`) VALUES ('cms/archives/del' , '删除' , 0 , 'fa fa-circle-o' , 86 , 'normal' , 1520675194 , 1520675194) [ RunTime:0.032001s ]
+[ 2018-03-10T17:46:34+08:00 ][ sql ] [ SQL ] INSERT INTO `fa_auth_rule` (`name` , `title` , `ismenu` , `icon` , `pid` , `status` , `createtime` , `updatetime`) VALUES ('cms/archives/multi' , '批量更新' , 0 , 'fa fa-circle-o' , 86 , 'normal' , 1520675194 , 1520675194) [ RunTime:0.024220s ]
+[ 2018-03-10T17:46:34+08:00 ][ sql ] [ SQL ] INSERT INTO `fa_auth_rule` (`name` , `title` , `icon` , `ismenu` , `pid` , `status` , `createtime` , `updatetime`) VALUES ('cms/channel' , '栏目管理' , 'fa fa-list' , 1 , 85 , 'normal' , 1520675194 , 1520675194) [ RunTime:0.057192s ]
+[ 2018-03-10T17:46:34+08:00 ][ sql ] [ SQL ] INSERT INTO `fa_auth_rule` (`name` , `title` , `ismenu` , `icon` , `pid` , `status` , `createtime` , `updatetime`) VALUES ('cms/channel/index' , '查看' , 0 , 'fa fa-circle-o' , 92 , 'normal' , 1520675194 , 1520675194) [ RunTime:0.049005s ]
+[ 2018-03-10T17:46:34+08:00 ][ sql ] [ SQL ] INSERT INTO `fa_auth_rule` (`name` , `title` , `ismenu` , `icon` , `pid` , `status` , `createtime` , `updatetime`) VALUES ('cms/channel/add' , '添加' , 0 , 'fa fa-circle-o' , 92 , 'normal' , 1520675194 , 1520675194) [ RunTime:0.023737s ]
+[ 2018-03-10T17:46:34+08:00 ][ sql ] [ SQL ] INSERT INTO `fa_auth_rule` (`name` , `title` , `ismenu` , `icon` , `pid` , `status` , `createtime` , `updatetime`) VALUES ('cms/channel/edit' , '修改' , 0 , 'fa fa-circle-o' , 92 , 'normal' , 1520675194 , 1520675194) [ RunTime:0.049296s ]
+[ 2018-03-10T17:46:34+08:00 ][ sql ] [ SQL ] INSERT INTO `fa_auth_rule` (`name` , `title` , `ismenu` , `icon` , `pid` , `status` , `createtime` , `updatetime`) VALUES ('cms/channel/del' , '删除' , 0 , 'fa fa-circle-o' , 92 , 'normal' , 1520675194 , 1520675194) [ RunTime:0.048751s ]
+[ 2018-03-10T17:46:34+08:00 ][ sql ] [ SQL ] INSERT INTO `fa_auth_rule` (`name` , `title` , `ismenu` , `icon` , `pid` , `status` , `createtime` , `updatetime`) VALUES ('cms/channel/multi' , '批量更新' , 0 , 'fa fa-circle-o' , 92 , 'normal' , 1520675194 , 1520675194) [ RunTime:0.076982s ]
+[ 2018-03-10T17:46:34+08:00 ][ sql ] [ SQL ] INSERT INTO `fa_auth_rule` (`name` , `title` , `icon` , `ismenu` , `pid` , `status` , `createtime` , `updatetime`) VALUES ('cms/modelx' , '模型管理' , 'fa fa-th' , 1 , 85 , 'normal' , 1520675194 , 1520675194) [ RunTime:0.062065s ]
+[ 2018-03-10T17:46:34+08:00 ][ sql ] [ SQL ] INSERT INTO `fa_auth_rule` (`name` , `title` , `ismenu` , `icon` , `pid` , `status` , `createtime` , `updatetime`) VALUES ('cms/modelx/index' , '查看' , 0 , 'fa fa-circle-o' , 98 , 'normal' , 1520675194 , 1520675194) [ RunTime:0.024244s ]
+[ 2018-03-10T17:46:34+08:00 ][ sql ] [ SQL ] INSERT INTO `fa_auth_rule` (`name` , `title` , `ismenu` , `icon` , `pid` , `status` , `createtime` , `updatetime`) VALUES ('cms/modelx/add' , '添加' , 0 , 'fa fa-circle-o' , 98 , 'normal' , 1520675194 , 1520675194) [ RunTime:0.031796s ]
+[ 2018-03-10T17:46:34+08:00 ][ sql ] [ SQL ] INSERT INTO `fa_auth_rule` (`name` , `title` , `ismenu` , `icon` , `pid` , `status` , `createtime` , `updatetime`) VALUES ('cms/modelx/edit' , '修改' , 0 , 'fa fa-circle-o' , 98 , 'normal' , 1520675194 , 1520675194) [ RunTime:0.024208s ]
+[ 2018-03-10T17:46:34+08:00 ][ sql ] [ SQL ] INSERT INTO `fa_auth_rule` (`name` , `title` , `ismenu` , `icon` , `pid` , `status` , `createtime` , `updatetime`) VALUES ('cms/modelx/del' , '删除' , 0 , 'fa fa-circle-o' , 98 , 'normal' , 1520675194 , 1520675194) [ RunTime:0.031882s ]
+[ 2018-03-10T17:46:34+08:00 ][ sql ] [ SQL ] INSERT INTO `fa_auth_rule` (`name` , `title` , `ismenu` , `icon` , `pid` , `status` , `createtime` , `updatetime`) VALUES ('cms/modelx/multi' , '批量更新' , 0 , 'fa fa-circle-o' , 98 , 'normal' , 1520675194 , 1520675194) [ RunTime:0.024222s ]
+[ 2018-03-10T17:46:34+08:00 ][ sql ] [ SQL ] INSERT INTO `fa_auth_rule` (`name` , `title` , `icon` , `ismenu` , `pid` , `status` , `createtime` , `updatetime`) VALUES ('cms/fields' , '字段管理' , 'fa fa-fields' , 0 , 98 , 'normal' , 1520675194 , 1520675194) [ RunTime:0.032058s ]
+[ 2018-03-10T17:46:34+08:00 ][ sql ] [ SQL ] INSERT INTO `fa_auth_rule` (`name` , `title` , `ismenu` , `icon` , `pid` , `status` , `createtime` , `updatetime`) VALUES ('cms/fields/index' , '查看' , 0 , 'fa fa-circle-o' , 104 , 'normal' , 1520675194 , 1520675194) [ RunTime:0.024142s ]
+[ 2018-03-10T17:46:34+08:00 ][ sql ] [ SQL ] INSERT INTO `fa_auth_rule` (`name` , `title` , `ismenu` , `icon` , `pid` , `status` , `createtime` , `updatetime`) VALUES ('cms/fields/add' , '添加' , 0 , 'fa fa-circle-o' , 104 , 'normal' , 1520675194 , 1520675194) [ RunTime:0.023670s ]
+[ 2018-03-10T17:46:34+08:00 ][ sql ] [ SQL ] INSERT INTO `fa_auth_rule` (`name` , `title` , `ismenu` , `icon` , `pid` , `status` , `createtime` , `updatetime`) VALUES ('cms/fields/edit' , '修改' , 0 , 'fa fa-circle-o' , 104 , 'normal' , 1520675194 , 1520675194) [ RunTime:0.024204s ]
+[ 2018-03-10T17:46:34+08:00 ][ sql ] [ SQL ] INSERT INTO `fa_auth_rule` (`name` , `title` , `ismenu` , `icon` , `pid` , `status` , `createtime` , `updatetime`) VALUES ('cms/fields/del' , '删除' , 0 , 'fa fa-circle-o' , 104 , 'normal' , 1520675194 , 1520675194) [ RunTime:0.071530s ]
+[ 2018-03-10T17:46:35+08:00 ][ sql ] [ SQL ] INSERT INTO `fa_auth_rule` (`name` , `title` , `ismenu` , `icon` , `pid` , `status` , `createtime` , `updatetime`) VALUES ('cms/fields/multi' , '批量更新' , 0 , 'fa fa-circle-o' , 104 , 'normal' , 1520675194 , 1520675194) [ RunTime:0.090923s ]
+[ 2018-03-10T17:46:35+08:00 ][ sql ] [ SQL ] INSERT INTO `fa_auth_rule` (`name` , `title` , `icon` , `ismenu` , `pid` , `status` , `createtime` , `updatetime`) VALUES ('cms/tags' , '标签管理' , 'fa fa-tags' , 1 , 85 , 'normal' , 1520675195 , 1520675195) [ RunTime:0.098397s ]
+[ 2018-03-10T17:46:35+08:00 ][ sql ] [ SQL ] INSERT INTO `fa_auth_rule` (`name` , `title` , `ismenu` , `icon` , `pid` , `status` , `createtime` , `updatetime`) VALUES ('cms/tags/index' , '查看' , 0 , 'fa fa-circle-o' , 110 , 'normal' , 1520675195 , 1520675195) [ RunTime:0.090710s ]
+[ 2018-03-10T17:46:35+08:00 ][ sql ] [ SQL ] INSERT INTO `fa_auth_rule` (`name` , `title` , `ismenu` , `icon` , `pid` , `status` , `createtime` , `updatetime`) VALUES ('cms/tags/add' , '添加' , 0 , 'fa fa-circle-o' , 110 , 'normal' , 1520675195 , 1520675195) [ RunTime:0.084057s ]
+[ 2018-03-10T17:46:35+08:00 ][ sql ] [ SQL ] INSERT INTO `fa_auth_rule` (`name` , `title` , `ismenu` , `icon` , `pid` , `status` , `createtime` , `updatetime`) VALUES ('cms/tags/edit' , '修改' , 0 , 'fa fa-circle-o' , 110 , 'normal' , 1520675195 , 1520675195) [ RunTime:0.029839s ]
+[ 2018-03-10T17:46:35+08:00 ][ sql ] [ SQL ] INSERT INTO `fa_auth_rule` (`name` , `title` , `ismenu` , `icon` , `pid` , `status` , `createtime` , `updatetime`) VALUES ('cms/tags/del' , '删除' , 0 , 'fa fa-circle-o' , 110 , 'normal' , 1520675195 , 1520675195) [ RunTime:0.023475s ]
+[ 2018-03-10T17:46:35+08:00 ][ sql ] [ SQL ] INSERT INTO `fa_auth_rule` (`name` , `title` , `ismenu` , `icon` , `pid` , `status` , `createtime` , `updatetime`) VALUES ('cms/tags/multi' , '批量更新' , 0 , 'fa fa-circle-o' , 110 , 'normal' , 1520675195 , 1520675195) [ RunTime:0.024246s ]
+[ 2018-03-10T17:46:35+08:00 ][ sql ] [ SQL ] INSERT INTO `fa_auth_rule` (`name` , `title` , `icon` , `ismenu` , `pid` , `status` , `createtime` , `updatetime`) VALUES ('cms/block' , '区块管理' , 'fa fa-th-large' , 1 , 85 , 'normal' , 1520675195 , 1520675195) [ RunTime:0.032125s ]
+[ 2018-03-10T17:46:35+08:00 ][ sql ] [ SQL ] INSERT INTO `fa_auth_rule` (`name` , `title` , `ismenu` , `icon` , `pid` , `status` , `createtime` , `updatetime`) VALUES ('cms/block/index' , '查看' , 0 , 'fa fa-circle-o' , 116 , 'normal' , 1520675195 , 1520675195) [ RunTime:0.032149s ]
+[ 2018-03-10T17:46:35+08:00 ][ sql ] [ SQL ] INSERT INTO `fa_auth_rule` (`name` , `title` , `ismenu` , `icon` , `pid` , `status` , `createtime` , `updatetime`) VALUES ('cms/block/add' , '添加' , 0 , 'fa fa-circle-o' , 116 , 'normal' , 1520675195 , 1520675195) [ RunTime:0.023520s ]
+[ 2018-03-10T17:46:35+08:00 ][ sql ] [ SQL ] INSERT INTO `fa_auth_rule` (`name` , `title` , `ismenu` , `icon` , `pid` , `status` , `createtime` , `updatetime`) VALUES ('cms/block/edit' , '修改' , 0 , 'fa fa-circle-o' , 116 , 'normal' , 1520675195 , 1520675195) [ RunTime:0.024210s ]
+[ 2018-03-10T17:46:35+08:00 ][ sql ] [ SQL ] INSERT INTO `fa_auth_rule` (`name` , `title` , `ismenu` , `icon` , `pid` , `status` , `createtime` , `updatetime`) VALUES ('cms/block/del' , '删除' , 0 , 'fa fa-circle-o' , 116 , 'normal' , 1520675195 , 1520675195) [ RunTime:0.079989s ]
+[ 2018-03-10T17:46:35+08:00 ][ sql ] [ SQL ] INSERT INTO `fa_auth_rule` (`name` , `title` , `ismenu` , `icon` , `pid` , `status` , `createtime` , `updatetime`) VALUES ('cms/block/multi' , '批量更新' , 0 , 'fa fa-circle-o' , 116 , 'normal' , 1520675195 , 1520675195) [ RunTime:0.032258s ]
+[ 2018-03-10T17:46:35+08:00 ][ sql ] [ SQL ] INSERT INTO `fa_auth_rule` (`name` , `title` , `icon` , `ismenu` , `pid` , `status` , `createtime` , `updatetime`) VALUES ('cms/page' , '单页管理' , 'fa fa-file' , 1 , 85 , 'normal' , 1520675195 , 1520675195) [ RunTime:0.024003s ]
+[ 2018-03-10T17:46:35+08:00 ][ sql ] [ SQL ] INSERT INTO `fa_auth_rule` (`name` , `title` , `ismenu` , `icon` , `pid` , `status` , `createtime` , `updatetime`) VALUES ('cms/page/index' , '查看' , 0 , 'fa fa-circle-o' , 122 , 'normal' , 1520675195 , 1520675195) [ RunTime:0.031915s ]
+[ 2018-03-10T17:46:35+08:00 ][ sql ] [ SQL ] INSERT INTO `fa_auth_rule` (`name` , `title` , `ismenu` , `icon` , `pid` , `status` , `createtime` , `updatetime`) VALUES ('cms/page/add' , '添加' , 0 , 'fa fa-circle-o' , 122 , 'normal' , 1520675195 , 1520675195) [ RunTime:0.023818s ]
+[ 2018-03-10T17:46:35+08:00 ][ sql ] [ SQL ] INSERT INTO `fa_auth_rule` (`name` , `title` , `ismenu` , `icon` , `pid` , `status` , `createtime` , `updatetime`) VALUES ('cms/page/edit' , '修改' , 0 , 'fa fa-circle-o' , 122 , 'normal' , 1520675195 , 1520675195) [ RunTime:0.023657s ]
+[ 2018-03-10T17:46:35+08:00 ][ sql ] [ SQL ] INSERT INTO `fa_auth_rule` (`name` , `title` , `ismenu` , `icon` , `pid` , `status` , `createtime` , `updatetime`) VALUES ('cms/page/del' , '删除' , 0 , 'fa fa-circle-o' , 122 , 'normal' , 1520675195 , 1520675195) [ RunTime:0.024420s ]
+[ 2018-03-10T17:46:35+08:00 ][ sql ] [ SQL ] INSERT INTO `fa_auth_rule` (`name` , `title` , `ismenu` , `icon` , `pid` , `status` , `createtime` , `updatetime`) VALUES ('cms/page/multi' , '批量更新' , 0 , 'fa fa-circle-o' , 122 , 'normal' , 1520675195 , 1520675195) [ RunTime:0.031815s ]
+[ 2018-03-10T17:46:35+08:00 ][ sql ] [ SQL ] INSERT INTO `fa_auth_rule` (`name` , `title` , `icon` , `ismenu` , `pid` , `status` , `createtime` , `updatetime`) VALUES ('cms/comment' , '评论管理' , 'fa fa-comment' , 1 , 85 , 'normal' , 1520675195 , 1520675195) [ RunTime:0.031267s ]
+[ 2018-03-10T17:46:35+08:00 ][ sql ] [ SQL ] INSERT INTO `fa_auth_rule` (`name` , `title` , `ismenu` , `icon` , `pid` , `status` , `createtime` , `updatetime`) VALUES ('cms/comment/index' , '查看' , 0 , 'fa fa-circle-o' , 128 , 'normal' , 1520675195 , 1520675195) [ RunTime:0.031729s ]
+[ 2018-03-10T17:46:35+08:00 ][ sql ] [ SQL ] INSERT INTO `fa_auth_rule` (`name` , `title` , `ismenu` , `icon` , `pid` , `status` , `createtime` , `updatetime`) VALUES ('cms/comment/add' , '添加' , 0 , 'fa fa-circle-o' , 128 , 'normal' , 1520675195 , 1520675195) [ RunTime:0.023990s ]
+[ 2018-03-10T17:46:35+08:00 ][ sql ] [ SQL ] INSERT INTO `fa_auth_rule` (`name` , `title` , `ismenu` , `icon` , `pid` , `status` , `createtime` , `updatetime`) VALUES ('cms/comment/edit' , '修改' , 0 , 'fa fa-circle-o' , 128 , 'normal' , 1520675195 , 1520675195) [ RunTime:0.023369s ]
+[ 2018-03-10T17:46:35+08:00 ][ sql ] [ SQL ] INSERT INTO `fa_auth_rule` (`name` , `title` , `ismenu` , `icon` , `pid` , `status` , `createtime` , `updatetime`) VALUES ('cms/comment/del' , '删除' , 0 , 'fa fa-circle-o' , 128 , 'normal' , 1520675195 , 1520675195) [ RunTime:0.024394s ]
+[ 2018-03-10T17:46:36+08:00 ][ sql ] [ SQL ] INSERT INTO `fa_auth_rule` (`name` , `title` , `ismenu` , `icon` , `pid` , `status` , `createtime` , `updatetime`) VALUES ('cms/comment/multi' , '批量更新' , 0 , 'fa fa-circle-o' , 128 , 'normal' , 1520675195 , 1520675195) [ RunTime:0.023430s ]

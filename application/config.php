@@ -1,23 +1,26 @@
 <?php
+
 // +----------------------------------------------------------------------
 // | ThinkPHP [ WE CAN DO IT JUST THINK ]
 // +----------------------------------------------------------------------
-// | Copyright (c) 2006~2018 http://thinkphp.cn All rights reserved.
+// | Copyright (c) 2006~2016 http://thinkphp.cn All rights reserved.
 // +----------------------------------------------------------------------
 // | Licensed ( http://www.apache.org/licenses/LICENSE-2.0 )
 // +----------------------------------------------------------------------
 // | Author: liu21st <liu21st@gmail.com>
 // +----------------------------------------------------------------------
+use think\Env;
 
 return [
     // +----------------------------------------------------------------------
     // | 应用设置
     // +----------------------------------------------------------------------
-
+    // 应用命名空间
+    'app_namespace'          => 'app',
     // 应用调试模式
-    'app_debug'              => false,
+    'app_debug'              => Env::get('app.debug', true),
     // 应用Trace
-    'app_trace'              => false,
+    'app_trace'              => Env::get('app.trace', false),
     // 应用模式状态
     'app_status'             => '',
     // 是否支持多模块
@@ -39,7 +42,7 @@ return [
     // 默认时区
     'default_timezone'       => 'PRC',
     // 是否开启多语言
-    'lang_switch_on'         => false,
+    'lang_switch_on'         => true,
     // 默认全局过滤方法 用逗号分隔多个
     'default_filter'         => '',
     // 默认语言
@@ -48,11 +51,9 @@ return [
     'class_suffix'           => false,
     // 控制器类后缀
     'controller_suffix'      => false,
-
     // +----------------------------------------------------------------------
     // | 模块设置
     // +----------------------------------------------------------------------
-
     // 默认模块名
     'default_module'         => 'index',
     // 禁止访问模块
@@ -68,12 +69,10 @@ return [
     // 操作方法后缀
     'action_suffix'          => '',
     // 自动搜索控制器
-    'controller_auto_search' => false,
-
+    'controller_auto_search' => true,
     // +----------------------------------------------------------------------
     // | URL设置
     // +----------------------------------------------------------------------
-
     // PATHINFO变量名 用于兼容模式
     'var_pathinfo'           => 's',
     // 兼容PATH_INFO获取
@@ -112,13 +111,9 @@ return [
     'request_cache'          => false,
     // 请求缓存有效期
     'request_cache_expire'   => null,
-    // 全局请求缓存排除规则
-    'request_cache_except'   => [],
-
     // +----------------------------------------------------------------------
     // | 模板设置
     // +----------------------------------------------------------------------
-
     'template'               => [
         // 模板引擎类型 支持 php think 支持扩展
         'type'         => 'Think',
@@ -136,32 +131,31 @@ return [
         'taglib_begin' => '{',
         // 标签库标签结束标记
         'taglib_end'   => '}',
+        'tpl_cache'    => true,
     ],
-
-    // 视图输出字符串内容替换
-    'view_replace_str'       => [],
+    // 视图输出字符串内容替换,留空则会自动进行计算
+    'view_replace_str'       => [
+        '__PUBLIC__' => '',
+        '__ROOT__'   => '',
+        '__CDN__'    => '',
+    ],
     // 默认跳转页面对应的模板文件
-    'dispatch_success_tmpl'  => THINK_PATH . 'tpl' . DS . 'dispatch_jump.tpl',
-    'dispatch_error_tmpl'    => THINK_PATH . 'tpl' . DS . 'dispatch_jump.tpl',
-
+    'dispatch_success_tmpl'  => APP_PATH . 'common' . DS . 'view' . DS . 'tpl' . DS . 'dispatch_jump.tpl',
+    'dispatch_error_tmpl'    => APP_PATH . 'common' . DS . 'view' . DS . 'tpl' . DS . 'dispatch_jump.tpl',
     // +----------------------------------------------------------------------
     // | 异常及错误设置
     // +----------------------------------------------------------------------
-
     // 异常页面的模板文件
-    'exception_tmpl'         => THINK_PATH . 'tpl' . DS . 'think_exception.tpl',
-
+    'exception_tmpl'         => APP_PATH . 'common' . DS . 'view' . DS . 'tpl' . DS . 'think_exception.tpl',
     // 错误显示信息,非调试模式有效
-    'error_message'          => '页面错误！请稍后再试～',
+    'error_message'          => '你所浏览的页面暂时无法访问',
     // 显示错误信息
     'show_error_msg'         => false,
     // 异常处理handle类 留空使用 \think\exception\Handle
     'exception_handle'       => '',
-
     // +----------------------------------------------------------------------
     // | 日志设置
     // +----------------------------------------------------------------------
-
     'log'                    => [
         // 日志记录方式，内置 file socket 支持扩展
         'type'  => 'File',
@@ -170,7 +164,6 @@ return [
         // 日志记录级别
         'level' => [],
     ],
-
     // +----------------------------------------------------------------------
     // | Trace设置 开启 app_trace 后 有效
     // +----------------------------------------------------------------------
@@ -178,11 +171,9 @@ return [
         // 内置Html Console 支持扩展
         'type' => 'Html',
     ],
-
     // +----------------------------------------------------------------------
     // | 缓存设置
     // +----------------------------------------------------------------------
-
     'cache'                  => [
         // 驱动方式
         'type'   => 'File',
@@ -193,11 +184,9 @@ return [
         // 缓存有效期 0表示永久缓存
         'expire' => 0,
     ],
-
     // +----------------------------------------------------------------------
     // | 会话设置
     // +----------------------------------------------------------------------
-
     'session'                => [
         'id'             => '',
         // SESSION_ID的提交变量,解决flash上传跨域
@@ -209,7 +198,6 @@ return [
         // 是否自动开启 SESSION
         'auto_start'     => true,
     ],
-
     // +----------------------------------------------------------------------
     // | Cookie设置
     // +----------------------------------------------------------------------
@@ -229,11 +217,43 @@ return [
         // 是否使用 setcookie
         'setcookie' => true,
     ],
-
     //分页配置
     'paginate'               => [
         'type'      => 'bootstrap',
         'var_page'  => 'page',
         'list_rows' => 15,
+    ],
+    //验证码配置
+    'captcha'                => [
+        // 验证码字符集合
+        'codeSet'  => '2345678abcdefhijkmnpqrstuvwxyzABCDEFGHJKLMNPQRTUVWXY',
+        // 验证码字体大小(px)
+        'fontSize' => 16,
+        // 是否画混淆曲线
+        'useCurve' => false,
+        //使用中文验证码
+        'useZh'    => false,
+        // 验证码图片高度
+        'imageH'   => 30,
+        // 验证码图片宽度
+        'imageW'   => 100,
+        // 验证码位数
+        'length'   => 4,
+        // 验证成功后是否重置
+        'reset'    => true
+    ],
+    //FastAdmin配置
+    'fastadmin'              => [
+        //登录验证码
+        'login_captcha'    => false,
+        //是否同一账号同一时间只能在一个地方登录
+        'login_unique'     => false,
+        //登录页默认背景图
+        'login_background' => "/assets/img/loginbg.jpg",
+        //自动检测更新
+        'checkupdate'      => false,
+        //版本号
+        'version'          => '1.0.0.20180308_beta',
+        'api_url'          => 'http://api.fastadmin.net',
     ],
 ];

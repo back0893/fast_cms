@@ -1,0 +1,237 @@
+---------------------------------------------------------------
+[ 2018-03-10T17:49:36+08:00 ] 127.0.0.1 GET /
+[ info ] 127.0.0.1:8000/ [运行时间：0.083797s][吞吐率：11.93req/s] [内存消耗：2,455.14kb] [文件加载：68]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000127s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002915s ]
+[ info ] [ LANG ] E:\micoblog\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:8000',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.6,en;q=0.4',
+  'cookie' => 'wp-settings-time-1=1520422461',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] E:\micoblog\public/../application/index\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000691s ]
+[ info ] [ LANG ] E:\micoblog\public/../application/index/lang/zh-cn/index.php
+[ info ] [ RUN ] app\index\controller\Index->index[ E:\micoblog\application\index\controller\Index.php ]
+[ info ] [ VIEW ] E:\micoblog\public/../application/index\view\index\index.html [ array (
+  0 => 'user',
+  1 => 'site',
+  2 => 'config',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-10T17:49:49+08:00 ] 127.0.0.1 GET /index.php/admin/index/login.html
+[ info ] 127.0.0.1:8000/index.php/admin/index/login.html [运行时间：0.047981s][吞吐率：20.84req/s] [内存消耗：2,650.47kb] [文件加载：74]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000018s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002225s ]
+[ info ] [ LANG ] E:\micoblog\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:8000',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.6,en;q=0.4',
+  'cookie' => 'wp-settings-time-1=1520422461; Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1520675378; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1520675378',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] E:\micoblog\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000420s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LANG ] E:\micoblog\public/../application/admin/lang/zh-cn/index.php
+[ info ] [ RUN ] app\admin\controller\Index->login[ E:\micoblog\application\admin\controller\Index.php ]
+[ info ] [ VIEW ] E:\micoblog\public/../application/admin\view\index\login.html [ array (
+  0 => 'breadcrumb',
+  1 => 'site',
+  2 => 'config',
+  3 => 'auth',
+  4 => 'admin',
+  5 => 'background',
+  6 => 'title',
+) ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000416s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-10T17:49:50+08:00 ] 127.0.0.1 GET /index.php/admin/ajax/lang?callback=define&controllername=index&v=1520675389
+[ info ] 127.0.0.1:8000/index.php/admin/ajax/lang?callback=define&controllername=index&v=1520675389 [运行时间：0.047035s][吞吐率：21.26req/s] [内存消耗：2,517.20kb] [文件加载：72]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000022s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002998s ]
+[ info ] [ LANG ] E:\micoblog\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'ajax',
+    2 => 'lang',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:8000',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://127.0.0.1:8000/index.php/admin/index/login.html',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.6,en;q=0.4',
+  'cookie' => 'wp-settings-time-1=1520422461; Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1520675378; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1520675378; PHPSESSID=gg73hrc2tq8m6fhur8vu72307n',
+)
+[ info ] [ PARAM ] array (
+  'callback' => 'define',
+  'controllername' => 'index',
+  'v' => '1520675389',
+)
+[ info ] [ LANG ] E:\micoblog\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000593s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LANG ] E:\micoblog\public/../application/admin/lang/zh-cn/ajax.php
+[ info ] [ RUN ] app\admin\controller\Ajax->lang[ E:\micoblog\application\admin\controller\Ajax.php ]
+[ info ] [ LANG ] E:\micoblog\public/../application/admin/lang/zh-cn/index.php
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000234s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-10T17:50:30+08:00 ] 127.0.0.1 GET /index.php/index/index/index
+[ info ] 127.0.0.1:8000/index.php/index/index/index [运行时间：0.085921s][吞吐率：11.64req/s] [内存消耗：2,304.90kb] [文件加载：66]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000021s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002198s ]
+[ info ] [ LANG ] E:\micoblog\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:8000',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.6,en;q=0.4',
+  'cookie' => 'wp-settings-time-1=1520422461; Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1520675378; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1520675378; PHPSESSID=gg73hrc2tq8m6fhur8vu72307n',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] E:\micoblog\public/../application/index\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.009347s ]
+[ info ] [ LANG ] E:\micoblog\public/../application/index/lang/zh-cn/index.php
+[ info ] [ RUN ] app\index\controller\Index->index[ E:\micoblog\application\index\controller\Index.php ]
+[ info ] [ VIEW ] E:\micoblog\public/../application/index\view\index\index.html [ array (
+  0 => 'user',
+  1 => 'site',
+  2 => 'config',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-10T17:50:39+08:00 ] 127.0.0.1 GET /index.php/index/index/news
+[ info ] 127.0.0.1:8000/index.php/index/index/news [运行时间：0.034223s][吞吐率：29.22req/s] [内存消耗：2,308.80kb] [文件加载：66]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000019s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002243s ]
+[ info ] [ LANG ] E:\micoblog\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'news',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:8000',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.6,en;q=0.4',
+  'cookie' => 'wp-settings-time-1=1520422461; PHPSESSID=gg73hrc2tq8m6fhur8vu72307n; Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1520675378; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1520675430',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] E:\micoblog\public/../application/index\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000322s ]
+[ info ] [ LANG ] E:\micoblog\public/../application/index/lang/zh-cn/index.php
+[ info ] [ RUN ] app\index\controller\Index->news[ E:\micoblog\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-10T17:51:42+08:00 ] 127.0.0.1 GET /index.php/index/index/test
+[ info ] 127.0.0.1:8000/index.php/index/index/test [运行时间：0.044521s][吞吐率：22.46req/s] [内存消耗：2,303.83kb] [文件加载：65]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000019s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.003409s ]
+[ info ] [ LANG ] E:\micoblog\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'test',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:8000',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.6,en;q=0.4',
+  'cookie' => 'wp-settings-time-1=1520422461; PHPSESSID=gg73hrc2tq8m6fhur8vu72307n; Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1520675378; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1520675430',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] E:\micoblog\public/../application/index\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000684s ]
+[ info ] [ LANG ] E:\micoblog\public/../application/index/lang/zh-cn/index.php
+[ info ] [ RUN ] app\index\controller\Index->test[ E:\micoblog\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
